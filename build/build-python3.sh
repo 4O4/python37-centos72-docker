@@ -8,3 +8,4 @@ make -j $(nproc) &&
 make install && \
 ln -s /usr/local/python37/bin/*3.7* /usr/local/bin && \
 /usr/local/python37/bin/pip3 install --upgrade pip
+/usr/local/python37/bin/pip3 install virtualenv
